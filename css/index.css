@@ -1,0 +1,48 @@
+header #logo {
+  height: 100px;
+  background: url("../images/logo.png") white center center/ 271px 42px no-repeat;
+}
+
+header nav {
+  background: #215283;
+  font-size: 16px;
+}
+
+nav .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+nav .content a{
+  color: white;
+}
+
+nav .content a:hover, nav .content a.active{
+  color: #FFA700;
+}
+
+.content {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+
+footer{
+  color: white;
+  font-size: 14px;
+  background: #215283;
+}
+
+footer .content{
+  display: flex;
+  align-items: center;
+  height: 120px;
+  padding: 0 100px;
+}
+
+footer .copy-right{
+  flex: 1;
+  text-align: right;
+}
