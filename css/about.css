@@ -4,6 +4,15 @@
   color: white;
 }
 
+.header-search{
+  float: right;
+  width: 20px;
+  height: 20px;
+  background: url("../images/seaech.png") center / 100%  no-repeat;
+  transform: translate(-60px, 40px);
+  cursor: pointer;
+}
+
 .main .content {
   padding-left: 100px;
 }
@@ -114,7 +123,7 @@
 
 .contact {
   height: 720px;
-  background: url("/images/bg2.png") center no-repeat;
+  background: url("/images/bg2.png") center / 100% no-repeat;
 }
 
 .contact .content{
@@ -134,7 +143,7 @@
 .contact-info-wrap .info-list{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  padding-left: 134px;
   background: white;
   height: 300px;
 }
