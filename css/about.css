@@ -160,16 +160,16 @@
 }
 
 .contact-info-wrap .info:nth-child(1) {
-  background: url("/images/telephone@2x.png") left center / 90px no-repeat;
-}
-
-.contact-info-wrap .info:nth-child(2) {
-  background: url("/images/email.png") left center / 90px no-repeat;
-}
-
-.contact-info-wrap .info:nth-child(3) {
   background: url("/images/address.png") left center / 90px no-repeat;
 }
+
+/*.contact-info-wrap .info:nth-child(2) {*/
+/*  background: url("/images/email.png") left center / 90px no-repeat;*/
+/*}*/
+
+/*.contact-info-wrap .info:nth-child(3) {*/
+/*  background: url("/images/address.png") left center / 90px no-repeat;*/
+/*}*/
 
 .info .s-title{
   font-size: 30px;
